@@ -1,11 +1,16 @@
 function get(query){$(query)};
 
+function randomColor()
+{
+  
+}
 
 setInterval(
 function()
 {
   //
-  // Do something every two seconds!
+  // Run the same code every two seconds!
   //
+  
   
 }, 2000);
