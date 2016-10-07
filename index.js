@@ -18,5 +18,5 @@ function()
   // Run the same code every two seconds!
   //
   get("#id").css('background-color', randomColor());
-  get("
+  get("#id")
 }, 2000);
