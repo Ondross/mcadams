@@ -17,6 +17,6 @@ function()
   //
   // Run the same code every two seconds!
   //
-  get(
+  get("#id",
   
 }, 2000);
