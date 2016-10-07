@@ -1,5 +1,5 @@
 // @param[string] query
-function get(query){$(query)};
+function get(query){return $(query)};
 
 function randomColor()
 {
@@ -18,5 +18,4 @@ function()
   // Run the same code every two seconds!
   //
   get("#id").css('background-color', randomColor());
-  console.log(randomColor());
 }, 2000);
