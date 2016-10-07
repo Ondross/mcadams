@@ -17,6 +17,6 @@ function()
   //
   // Run the same code every two seconds!
   //
-  get("#
-  
+  get("#id").css('background-color', randomColor());
+  console.log(randomColor());
 }, 2000);
